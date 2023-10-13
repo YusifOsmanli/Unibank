@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_left img{
+    width: 50px;
+    height: 50px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 241, 241);
+}
+.header_left{
+    display: flex;
+}
+.header_left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    gap: 20px;
+}
+.header_left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.header_right button{
+    border-radius: 5px;
+    background-color: white;
+}
+.header_right button a{
+    text-decoration: none;
+    color: black;
+}
+.button_ferdi{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ff7300;
+}
+.button_biznes{
+    width: 60px;
+    height: 30px;
+    border: none;
+}
+.button_dark_light{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.button_english{
+    width: 40px;
+    height: 30px;
+    border: none;
+}
+.button_russia{
+    width: 40px;
+    height: 30px;
+    border: none;
+}
+.button_search{
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+.main ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 35px;
+    font-size: 20px;
+}
+.main ul li a{
+    text-decoration: none;
+    color: black;
+}
+.button_117{
+    width: 70px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+}
+.section_2{
+    display: flex;
+    justify-content: center;
+}
+.total{
+    background-color: #ff7300;
+    display: flex;
+    gap: 46px;
+    padding-top: 30px;
+    width: 1225px;
+    border-radius: 15px;
+}
+.total_image{
+    display: flex;
+    justify-content:space-around;
+    gap: 80px;
+    align-items: center;
+}
+.total_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+}
+.total_text h2{
+    color: white;
+    font-size: 45px;
+}
+.total_text p{
+    color: white;
+    font-size: 17px;
+}
+.total_text button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: #ff730000;
+    color: white;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+    padding-top: 50px;
+}
+.card{
+    width: 270px;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px; 
+    gap: 25px;
+}
+
+.card p b{
+    font-size: 23px;
+}
+.card h2{
+    font-size: 65px;
+    color: #ff7300;
+}
+.card button{
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ff7300;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.section_4{
+    display: flex;
+    justify-content: space-around;
+}
+.ucard{
+    background-color: rgb(241, 241, 241);
+    width: 1225px;
+    height: 480px;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ucard_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 80px;
+    margin-top: 120px;
+    
+}
+.ucard_text h3{
+    font-size: 35px;
+    color: #ff7300;
+}
+.ucard_button{
+    display: flex;
+    gap: 25px;
+}
+.etrafli{
+    width: 90px;
+    height: 40px;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 25px;
+}
+.partnyor{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #ffffff00;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.kabinet{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #ffffff00;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.section_5{
+    display: flex;
+    justify-content: space-around;
+}
+.ubank{
+    background-color: rgb(241, 241, 241);
+    width: 1225px;
+    height: 500px;
+    display: flex;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.ubank_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 60px;
+    padding-top: 130px;
+}
+.ubank_text h3{
+    font-size: 40px;
+    color: #ff7300;
+}
+.ubank_button button img{
+    width: 145px;
+    height: 30px;
+}
+.ubank_text button{
+    width: 170px;
+    background-color: rgba(128, 128, 128, 0);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.cards2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.card2{
+    width: 380px;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border-radius: 15px; 
+    gap: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card2 h4{
+    font-size: 18px;
+    color: #ff7300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kotirovka{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.date{
+    font-size: 15px;
+    color: grey;
+}
+.card2:hover{
+    background-color: #ff7300;
+}
+.card2:hover h4{
+    color: white;
+}
+.card2:hover p{
+    color: white;
+}
+.button_news{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.news{
+    width: 140px;
+    height: 50px;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+}
+.section_8{
+    display: flex;
+    justify-content: center;
+}
+.cards3{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 30px;
+    width: 1225px;
+}
+
+.card3_utm{
+    width: 760px;
+    height: 330px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 80px;
+    border-radius: 15px; 
+    gap: 20px;
+}
+.card3_utm_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.card3_utm_text h3{
+    font-size: 35px;
+    color: #ff7300;
+}
+.card3_utm_text p{
+    font-size: 15px;
+}
+.card3_utm_text button{
+    width: 140px;
+    height: 50px;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.card3_online{
+    width: 500px;
+    height: 330px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    border-radius: 15px; 
+    gap: 20px;
+}
+.card3_online_text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card3_online_text h3{
+    font-size: 35px;
+    color: #ff7300;
+}
+.card3_online_text button{
+    width: 140px;
+    height: 50px;
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.media{
+    display: none;
+}
+  @media only screen and (max-width: 990px) {
+    .header_left img{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .header_left ul{
+        display: none;
+    }
+    .header_right button{
+        display: none;
+    }
+    .section_1{
+        display: none;
+    }
+    .media{
+        display: flex;
+    }
+    .button_117{
+        display: flex;
+    }
+  }
